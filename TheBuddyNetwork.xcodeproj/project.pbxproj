@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC009D91CABE1DF00CE5082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC009D81CABE1DF00CE5082 /* AppDelegate.swift */; };
+		FAC009DB1CABE1DF00CE5082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC009DA1CABE1DF00CE5082 /* ViewController.swift */; };
+		FAC009DE1CABE1DF00CE5082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC009DC1CABE1DF00CE5082 /* Main.storyboard */; };
+		FAC009E01CABE1DF00CE5082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC009DF1CABE1DF00CE5082 /* Assets.xcassets */; };
+		FAC009E31CABE1DF00CE5082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC009E11CABE1DF00CE5082 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAC009D51CABE1DF00CE5082 /* TheBuddyNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBuddyNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC009D81CABE1DF00CE5082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC009DA1CABE1DF00CE5082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC009DD1CABE1DF00CE5082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC009DF1CABE1DF00CE5082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC009E21CABE1DF00CE5082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC009E41CABE1DF00CE5082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC009D21CABE1DF00CE5082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC009CC1CABE1DF00CE5082 = {
+			isa = PBXGroup;
+			children = (
+				FAC009D71CABE1DF00CE5082 /* TheBuddyNetwork */,
+				FAC009D61CABE1DF00CE5082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC009D61CABE1DF00CE5082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC009D51CABE1DF00CE5082 /* TheBuddyNetwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC009D71CABE1DF00CE5082 /* TheBuddyNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				FAC009D81CABE1DF00CE5082 /* AppDelegate.swift */,
+				FAC009DA1CABE1DF00CE5082 /* ViewController.swift */,
+				FAC009DC1CABE1DF00CE5082 /* Main.storyboard */,
+				FAC009DF1CABE1DF00CE5082 /* Assets.xcassets */,
+				FAC009E11CABE1DF00CE5082 /* LaunchScreen.storyboard */,
+				FAC009E41CABE1DF00CE5082 /* Info.plist */,
+			);
+			path = TheBuddyNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC009D41CABE1DF00CE5082 /* TheBuddyNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC009E71CABE1DF00CE5082 /* Build configuration list for PBXNativeTarget "TheBuddyNetwork" */;
+			buildPhases = (
+				FAC009D11CABE1DF00CE5082 /* Sources */,
+				FAC009D21CABE1DF00CE5082 /* Frameworks */,
+				FAC009D31CABE1DF00CE5082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheBuddyNetwork;
+			productName = TheBuddyNetwork;
+			productReference = FAC009D51CABE1DF00CE5082 /* TheBuddyNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC009CD1CABE1DF00CE5082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bilal;
+				TargetAttributes = {
+					FAC009D41CABE1DF00CE5082 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5GS5K232CP;
+					};
+				};
+			};
+			buildConfigurationList = FAC009D01CABE1DF00CE5082 /* Build configuration list for PBXProject "TheBuddyNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC009CC1CABE1DF00CE5082;
+			productRefGroup = FAC009D61CABE1DF00CE5082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC009D41CABE1DF00CE5082 /* TheBuddyNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC009D31CABE1DF00CE5082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC009E31CABE1DF00CE5082 /* LaunchScreen.storyboard in Resources */,
+				FAC009E01CABE1DF00CE5082 /* Assets.xcassets in Resources */,
+				FAC009DE1CABE1DF00CE5082 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC009D11CABE1DF00CE5082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC009DB1CABE1DF00CE5082 /* ViewController.swift in Sources */,
+				FAC009D91CABE1DF00CE5082 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC009DC1CABE1DF00CE5082 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC009DD1CABE1DF00CE5082 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC009E11CABE1DF00CE5082 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC009E21CABE1DF00CE5082 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC009E51CABE1DF00CE5082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC009E61CABE1DF00CE5082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC009E81CABE1DF00CE5082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheBuddyNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clout.TheBuddyNetwork.TheBuddyNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAC009E91CABE1DF00CE5082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TheBuddyNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clout.TheBuddyNetwork.TheBuddyNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC009D01CABE1DF00CE5082 /* Build configuration list for PBXProject "TheBuddyNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC009E51CABE1DF00CE5082 /* Debug */,
+				FAC009E61CABE1DF00CE5082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC009E71CABE1DF00CE5082 /* Build configuration list for PBXNativeTarget "TheBuddyNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC009E81CABE1DF00CE5082 /* Debug */,
+				FAC009E91CABE1DF00CE5082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC009CD1CABE1DF00CE5082 /* Project object */;
+}
